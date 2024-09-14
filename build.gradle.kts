@@ -13,8 +13,6 @@ dependencies {
     mappings(loom.officialMojangMappings())
     minecraft("com.mojang:minecraft:${project.property("minecraft_version")}")
     modImplementation("net.fabricmc:fabric-loader:${project.property("loader_version")}")
-
-    modImplementation("net.fabricmc.fabric-api:fabric-api:${project.property("fabric_version")}")
 }
 
 tasks.processResources {

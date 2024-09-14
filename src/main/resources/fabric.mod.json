@@ -1,20 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "template",
+  "id": "rmet",
   "version": "${version}",
   "license": "BSD-3-Clause",
   "environment": "server",
-  "entrypoints": {
-    "main": [
-      "ru.abramium.template.Template"
-    ]
-  },
   "mixins": [
-    "template.mixins.json"
+    "rmet.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }

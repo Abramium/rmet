@@ -1,11 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "ru.abramium.template.mixin",
+  "package": "ru.abramium.rmet.mixin",
   "compatibilityLevel": "JAVA_21",
   "server": [
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "mixins": [
+    "MendingEnchantmentMixin"
+  ]
 }
